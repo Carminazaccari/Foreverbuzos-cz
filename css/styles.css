@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-family: "Fira Sans", sans-serif;
+    }
+    
+    /* HEADER */
+    nav.menu{
+        background-color: #9a989b;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px;
+    }
+    .logo img{
+        width: 60px;
+        height: auto;
+        display: flex;
+        
+    }
+    
+    
+    div.links a{
+        color: #f0f033;
+        font-size: 20px;
+        text-decoration: none;
+        gap: 50px;
+        }
+    
+    
+    .titulos{
+     text-align: center;
+    font-size: 2em;
+    }
+    .section p{
+        font-size: 40px;
+    }
+    .subtitulos{
+    font-size: 3em;
+    }
+    /* FONDO de la pagina */
+    body {
+        background-image:url(../assets/fondo.jpeg) ;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+    /* carrusel principal */
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #0a0ded; 
+  border-radius: 50%;
+  background-size: 60% 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: invert(100%); 
+}
+
+    
+.carousel.slide {
+    max-width: 70%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+ }
+
+
+    
+
+
+    /* 2 secciones (egresados y empresas)*/
+    .contenedor {
+        display: flex;
+        justify-content: space-between;
+    }
+    section{
+        width: 45%;
+        padding: 10px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    section img{
+       width: 100%; 
+       height: auto;
+    }
+    button{
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        
+    }
+
+    /* Pagina diseños */
+
+    .carruselesposteriores{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 20px;
+    }
+    .carousel.slide.pagina2 {
+        max-width: 50%;
+        height: auto;
+    }
+    .carruselesinferiores {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 20px;
+    }
