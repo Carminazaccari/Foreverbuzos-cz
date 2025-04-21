@@ -37,7 +37,7 @@
         font-size: 40px;
     }
     .subtitulos{
-    font-size: 3em;
+    font-size: 2em;
     }
     /* FONDO de la pagina */
     body {
@@ -110,3 +110,9 @@
         gap: 40px;
         margin-top: 20px;
     }
+    /* Ajustes para celular */
+
+
+
+
+  /*  ajustes para tablet */
