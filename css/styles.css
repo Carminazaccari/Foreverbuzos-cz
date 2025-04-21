@@ -121,3 +121,10 @@
 
 
   /*  ajustes para tablet */
+  @media (min width:400px) {
+    body {
+        font-size: 9px;
+        padding: 10px;
+    }
+    
+  }
