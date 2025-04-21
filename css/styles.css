@@ -111,7 +111,12 @@
         margin-top: 20px;
     }
     /* Ajustes para celular */
-
+ @media (min width:600px) {
+    body {
+        font-size: 18px;
+        padding: 20px;
+    }
+ }
 
 
 
