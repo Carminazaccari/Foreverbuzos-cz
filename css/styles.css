@@ -131,8 +131,7 @@
         width: 45%;
     }
 
-    .carruselesposteriores,
-    .carruselesinferiores {
+    .carruselesposteriores, .carruselesinferiores {
         flex-direction: row;
         justify-content: center;
         gap: 40px;
@@ -142,5 +141,56 @@
         max-width: 50%;
     }
 
+}
+
+/* Ajuste para Desktop */
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px;
+        padding: 30px;
+    }
+
+    nav.menu {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .logo img {
+        width: 80px;
+    }
+
+    div.links {
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .titulos {
+        font-size: 2.5em;
+    }
+
+    .section p {
+        font-size: 28px;
+    }
+
+    .contenedor {
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 40px;
+    }
+
+    section {
+        width: 40%;
+    }
+
+    .carousel.slide, .carousel.slide.pagina2 {
+        max-width: 60%;
+    }
+
+    .carruselesposteriores, .carruselesinferiores {
+        flex-direction: row;
+        justify-content: center;
+        gap: 60px;
+    }
 }
 
