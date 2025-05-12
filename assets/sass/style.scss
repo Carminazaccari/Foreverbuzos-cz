@@ -1,5 +1,5 @@
-body {
-    background-image: url(assets/img/fondo.jpeg);
-    background-size: cover;
-}
- 
+@use "variables";
+@use "mixins";
+@use "base";
+@use "layout";
+@use "components";
