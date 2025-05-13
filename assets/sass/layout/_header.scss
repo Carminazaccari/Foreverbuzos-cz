@@ -1,0 +1,9 @@
+header{
+ nav.menu {
+  background-color: $color-primary;
+  @include center-flex;
+  align-items: center;
+  padding: 8px;
+}
+
+}
