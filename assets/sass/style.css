@@ -12,29 +12,6 @@ body {
   background-attachment: fixed;
   height: 100vh;
 }
-body header nav.menu {
-  background-color: #9a989b;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 8px;
-}
-body header .logo img {
-  width: 60px;
-  height: auto;
-  display: flex;
-}
-body header div.links {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-top: 10px;
-}
-body header div.links a {
-  color: #f0f033;
-  font-size: 18px;
-  text-decoration: none;
-}
 body main .titulos {
   text-align: center;
   font-size: 1.5em;
@@ -45,24 +22,11 @@ body main .section p {
 body main .subtitulos {
   font-size: 1.5em;
 }
-body main .carousel.slide {
-  max-width: 100%;
-  height: auto;
-  margin: 0 auto;
-  text-align: center;
-}
-body main .carousel-control-prev-icon, body main .carousel-control-next-icon {
-  background-color: #0a0ded;
-  border-radius: 50%;
-  background-size: 60% 60%;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: invert(100%);
-}
 body main .contenedor {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  justify-content: center;
+  gap: 10px;
 }
 body main section {
   width: 90%;
@@ -74,20 +38,93 @@ body main section img {
   width: 100%;
   height: auto;
 }
-body main button {
-  display: block;
-  margin: auto;
-  margin-top: 10px;
+
+header nav.menu {
+  background-color: #9a989b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
 }
-body main .carruselesposteriores, body main .carruselesinferiores {
+
+footer {
+  background-color: #9a989b;
+  display: flex;
+  justify-content: flex-start;
+}
+footer .contenedor-footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo img {
+  width: 60px;
+  height: auto;
+  display: flex;
+}
+
+.carousel.slide {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #0a0ded;
+  border-radius: 50%;
+  background-size: 60% 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: invert(100%);
+}
+
+.carruselesposteriores, .carruselesinferiores {
   flex-direction: column;
   gap: 20px;
 }
-body main .carousel.slide.pagina2 {
+
+.carousel.slide.pagina2 {
   max-width: 100%;
   height: auto;
   margin: 0 auto;
 }
 
+div.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+div.links a {
+  color: #f0f033;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+button {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+div.mapa {
+  display: flex;
+  justify-content: center;
+}
+
+.mapa iframe {
+  width: 60px;
+  height: auto;
+}
+
+img {
+  width: 360px;
+  height: 800px;
+  display: flex;
+}
 
 /*# sourceMappingURL=style.css.map */
