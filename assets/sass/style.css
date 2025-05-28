@@ -105,7 +105,7 @@ footer {
 
 .carousel.slide {
   width: 100%;
-  max-width: 1024px;
+  max-width: 768px;
   height: auto;
   margin: 0 auto;
   text-align: center;
@@ -156,14 +156,13 @@ button {
   margin-top: 10px;
 }
 
+h2.visitanos {
+  text-align: center;
+}
+
 div.mapa {
   display: flex;
   justify-content: center;
-}
-
-.mapa iframe {
-  width: 60px;
-  height: auto;
 }
 
 img {
