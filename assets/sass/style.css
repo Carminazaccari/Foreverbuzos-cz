@@ -22,21 +22,17 @@ body main .section p {
 body main .subtitulos {
   font-size: 1.5em;
 }
-body main .contenedor {
+body main div.contenedor {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  gap: 10px;
-}
-body main section {
-  width: 90%;
-  padding: 10px;
-  box-sizing: border-box;
+  align-items: center;
   text-align: center;
 }
-body main section img {
-  width: 100%;
-  height: auto;
+body main div.contenedor section {
+  width: 90%;
+  padding: 0 10px;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 header nav.menu {
@@ -175,6 +171,20 @@ img {
   width: 360px;
   height: 800px;
   display: flex;
+}
+
+img.egresados {
+  width: 100%;
+  max-width: 768px;
+  height: auto;
+  margin: 0 10px;
+}
+
+img.empresas {
+  width: 100%;
+  max-width: 768px;
+  height: auto;
+  margin: 0 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
