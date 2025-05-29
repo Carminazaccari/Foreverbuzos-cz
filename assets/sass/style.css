@@ -135,8 +135,8 @@ footer {
   width: 100%;
   max-width: 768px;
   height: auto;
-  margin: 0 auto;
-  padding: 0 10px;
+  margin: 20px;
+  padding: 15px;
 }
 
 div.links {
@@ -174,7 +174,7 @@ div.mapa {
 
 div.mapa iframe {
   width: 100%;
-  max-width: 600px;
+  max-width: 450px;
   height: 450px;
   border: none;
 }
