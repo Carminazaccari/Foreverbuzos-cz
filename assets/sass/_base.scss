@@ -41,3 +41,30 @@ body {
                   }   
                 }
 }
+
+@media (min-width: 1024px) {
+  * {
+    font-size: 16px; 
+  }
+
+  main .titulos {
+    font-size: 2em;
+    text-align: left; 
+  }
+
+  main .section p {
+    font-size: 22px;
+    line-height: 1.6;
+  }
+
+  main .subtitulos {
+    font-size: 1.8em;
+  }
+
+  main div.contenedor {
+    display: flex; 
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: left;
+  }
+}

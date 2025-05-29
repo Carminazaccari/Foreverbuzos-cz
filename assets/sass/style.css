@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -34,6 +35,28 @@ body main div.contenedor section {
   text-align: center;
 }
 
+@media (min-width: 1024px) {
+  * {
+    font-size: 16px;
+  }
+  main .titulos {
+    font-size: 2em;
+    text-align: left;
+  }
+  main .section p {
+    font-size: 22px;
+    line-height: 1.6;
+  }
+  main .subtitulos {
+    font-size: 1.8em;
+  }
+  main div.contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: left;
+  }
+}
 header nav.menu {
   background-color: #9a989b;
   display: flex;
@@ -107,9 +130,9 @@ footer {
 .carousel.slide {
   width: 100%;
   max-width: 768px;
-  max-height: 1024px;
-  height: 960px;
+  height: auto;
   margin: 0 10px;
+  margin-right: 10px;
   text-align: center;
 }
 
@@ -120,6 +143,12 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   filter: invert(100%);
+}
+
+.carousel-item img {
+  height: 400px;
+  object-fit: cover;
+  width: 100%;
 }
 
 .carruselesposteriores, .carruselesinferiores {
@@ -140,6 +169,30 @@ footer {
   padding: 0px 15px;
 }
 
+@media (min-width: 1024px) {
+  /* Carrusel principal */
+  .carousel.slide {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  /* Carruseles de la segunda página */
+  .carruselesposteriores,
+  .carruselesinferiores,
+  .carousel.slide.pagina2 {
+    max-width: 1000px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 40px;
+    margin-left: 140px;
+  }
+  .carousel.slide.pagina2 {
+    padding: 0;
+  }
+  .carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+  }
+}
 div.links {
   display: flex;
   flex-direction: column;

@@ -2,11 +2,12 @@
 .carousel.slide {
         width: 100%;
         max-width: 768px;
-        max-height: 1024px;
-        height: 960px;
+        height: auto;
         margin: 0 10px;
+        margin-right: 10px;
         text-align: center;
-     }    
+     } 
+        
 .carousel-control-prev-icon, .carousel-control-next-icon {
   background-color: #0a0ded; 
   border-radius: 50%;
@@ -15,7 +16,11 @@
   background-repeat: no-repeat;
   filter: invert(100%); 
 }
-
+.carousel-item img {
+  height: 400px; 
+  object-fit: cover; 
+  width: 100%;
+}
 
  // carruseles segunda pagina //
 .carruselesposteriores, .carruselesinferiores {
@@ -33,4 +38,33 @@
     height: auto;
     margin: 20px auto;
     padding: 0px 15px;
+}
+
+@media (min-width: 1024px) {
+  /* Carrusel principal */
+  .carousel.slide {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  /* Carruseles de la segunda página */
+  .carruselesposteriores,
+  .carruselesinferiores,
+  .carousel.slide.pagina2 {
+    max-width: 1000px;
+    flex-direction: row; 
+    justify-content: space-between;
+    padding: 0px 40px;
+    margin-left: 140px;
+  }
+
+  .carousel.slide.pagina2 {
+   padding: 0 ;
+  }
+
+  
+  .carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+  }
 }
