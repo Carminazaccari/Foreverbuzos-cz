@@ -166,7 +166,17 @@ h2.visitanos {
 div.mapa {
   display: flex;
   justify-content: center;
-  padding: 20px;
+  margin: 20px auto;
+  padding: 0 15px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+div.mapa iframe {
+  width: 100%;
+  max-width: 600px;
+  height: 450px;
+  border: none;
 }
 
 img {
