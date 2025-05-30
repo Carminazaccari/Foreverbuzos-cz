@@ -9,16 +9,14 @@ button.botonempre, button.botonpromo {
   color: rgb(0, 0, 0);             
   padding: 10px 15px;   
   margin-bottom: 20px;  
-  border: none;              /* sin borde */
-  border-radius: 5px;        /* esquinas redondeadas */
-  cursor: pointer;           /* cambia el cursor al pasar el mouse */
-  font-size: 15px;           /* tamaño del texto */
+  border: none;              
+  border-radius: 5px;       
+  cursor: pointer;           
+  font-size: 15px;         
 }
 
 .miboton:hover {
-  background-color: #2980b9; /* color al pasar el mouse */
-}
+  background-color: #2980b9; 
+  }
 
 
-
-// BOTON FORM // 
