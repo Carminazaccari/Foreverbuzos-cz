@@ -2,7 +2,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-size: 15px;
+  font-size: 20px;
   font-family: "Fira Sans", sans-serif;
 }
 
@@ -15,13 +15,13 @@ body {
 }
 body main .titulos {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 body main .section p {
   font-size: 20px;
 }
 body main .subtitulos {
-  font-size: 1.5em;
+  font-size: 2em;
 }
 body main div.contenedor {
   justify-content: center;
@@ -131,8 +131,7 @@ footer {
   width: 100%;
   max-width: 768px;
   height: auto;
-  margin: 0 10px;
-  margin-right: 10px;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -213,6 +212,44 @@ button {
   margin-top: 10px;
 }
 
+button.botonempre, button.botonpromo {
+  background-color: #9a989b;
+  color: rgb(0, 0, 0);
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border: none; /* sin borde */
+  border-radius: 5px; /* esquinas redondeadas */
+  cursor: pointer; /* cambia el cursor al pasar el mouse */
+  font-size: 15px; /* tamaño del texto */
+}
+
+.miboton:hover {
+  background-color: #2980b9; /* color al pasar el mouse */
+}
+
+.formulario-custom {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.formulario-custom button {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .formulario-custom {
+    max-width: 720px;
+  }
+  .formulario-custom button {
+    width: auto;
+  }
+}
+@media (min-width: 992px) {
+  .formulario-custom {
+    max-width: 960px;
+  }
+}
 h2.visitanos {
   text-align: center;
 }

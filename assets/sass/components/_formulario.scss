@@ -1,0 +1,28 @@
+
+.formulario-custom {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.formulario-custom button {
+  width: 100%;
+}
+
+
+@media (min-width: 768px) {
+  .formulario-custom {
+    max-width: 720px;
+  }
+
+  .formulario-custom button {
+    width: auto;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .formulario-custom {
+    max-width: 960px;
+  }
+}
